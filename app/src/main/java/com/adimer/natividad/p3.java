@@ -27,7 +27,7 @@ public class p3 extends AppCompatActivity {
         startActivityForResult(intent2, 0);
     }
     public void si(View view){
-        p3="¿En los últimos 14 días has vivido o viajado a un distrito de Lima que tenga casos confirmados de COVID-19?";
+        p3="En los ultimos 14 dias haz vivido o viajado a una ciudad / departamento que tenga caso confirmado de COVID-19";
         continuar.setEnabled( true );
     }
     public void no(View view){

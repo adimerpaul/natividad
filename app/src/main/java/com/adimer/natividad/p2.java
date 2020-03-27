@@ -25,7 +25,7 @@ public class p2 extends AppCompatActivity {
         startActivityForResult(intent2, 0);
     }
     public void si(View view){
-        p2="Has estado en contacto con una persona con diagnóstico confirmado de COVID-19";
+        p2="Has estado en contacto con una persona con diagnostico confirmado de COVID-19";
         continuar.setEnabled( true );
     }
     public void no(View view){

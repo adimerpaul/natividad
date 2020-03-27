@@ -23,7 +23,7 @@ Button continuar;
         startActivityForResult(intent2, 0);
     }
     public void si(View view){
-        p1="En los últimos 14 días has vuelto de un país con casos de coronavirus o has estado en contacto con alguien que volvió de ahí";
+        p1="En los ultimos 14 dias has vuelto de un pais con casos de coronavirus o has estado en contacto con alguien que volvio de ahi";
         continuar.setEnabled( true );
     }
     public void no(View view){
