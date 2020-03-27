@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.adimer.natividad">
-    <uses-permission android:name="android.permission.CALL_PHONE" />
 
     <application
         android:allowBackup="true"
@@ -10,7 +9,13 @@
         android:roundIcon="@drawable/natividad"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Recomendacion"></activity>
+        <activity android:name=".p4"></activity>
+        <activity android:name=".p3" />
+        <activity android:name=".p2" />
+        <activity android:name=".ultimo" />
+        <activity android:name=".tienes" />
+        <activity android:name=".como" />
+        <activity android:name=".Recomendacion" />
         <activity android:name=".covid" />
         <activity android:name=".MainActivity">
             <intent-filter>
@@ -20,5 +25,7 @@
             </intent-filter>
         </activity>
     </application>
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
 
 </manifest>

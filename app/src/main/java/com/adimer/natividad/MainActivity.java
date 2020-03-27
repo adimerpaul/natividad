@@ -42,6 +42,10 @@ public class MainActivity extends AppCompatActivity {
         Intent intent2 = new Intent (view.getContext(), Recomendacion.class);
         startActivityForResult(intent2, 0);
     }
+    public void cuestinario(View view) {
+        Intent intent2 = new Intent (view.getContext(), como.class);
+        startActivityForResult(intent2, 0);
+    }
     public void llamar(View view) {
 //        Uri num = Uri.parse("tel:+5261245");
         Intent i = new Intent(Intent.ACTION_CALL, Uri.parse("tel:78610575"));

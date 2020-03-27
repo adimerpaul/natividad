@@ -11,4 +11,11 @@ En los últimos años se han descrito tres brotes epidémicos importantes causad
 MERS-CoV: El coronavirus causante del síndrome respiratorio de Oriente Medio (MERS) fue detectado por primera vez en 2012 en Arabia Saudita. Se han notificado hasta octubre de 2019 más de 2.400 casos de infección en distintos países, con más de 800 muertes. La letalidad es, por tanto, del 35%.\n
 
 COVID-19: A finales de diciembre de 2019 se notificaron los primeros casos de un nuevo coronavirus en la ciudad de Wuhan (China). Desde entonces el goteo de nuevos infectados por el virus SARS-CoV-2 (inicialmente llamado 2019nCoV), que provoca el COVID-19, ha sido continuo y su transmisión de persona a persona se ha acelerado. </string>
+    <string name="bueno">
+        Al no tener síntomas o solo uno, y no haber estado en zonas con alto riesgo de transmisión del COVID-19 o con casos confirmados, la sospecha de que hayas contraído el virus es muy baja. Mantente informado \n\n
+Conoce qué es el coronavirus y cómo protegerte\n\n
+Coronavirus: medidas de prevención en el trabajo\n\n
+Protege a tu familia del coronavirus\n\n
+Toma en cuenta que puedes realizar este cuestionario las veces que consideres necesario\n\n
+    </string>
 </resources>
