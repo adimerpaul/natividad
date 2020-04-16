@@ -27,7 +27,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="70dp"
                 android:text="Consulta online sobre el corona virus\n     52-54721 52-83667 78610575"
-                android:textColor="#8F03F45B"
+                android:textColor="#8F41885B"
                 android:textSize="18sp" />
 
             <ImageView
