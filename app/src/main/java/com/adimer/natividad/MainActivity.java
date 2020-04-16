@@ -13,6 +13,8 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
+    private int MY_PERMISSIONS_REQUEST_CALL_PHONE = 10;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate( savedInstanceState );
@@ -47,12 +49,22 @@ public class MainActivity extends AppCompatActivity {
         startActivityForResult(intent2, 0);
     }
     public void llamar(View view) {
-//        Uri num = Uri.parse("tel:+5261245");
-        Intent i = new Intent(Intent.ACTION_CALL, Uri.parse("tel:78610575"));
+////        Uri num = Uri.parse("tel:+5261245");
+//        Intent i = new Intent(Intent.ACTION_CALL, Uri.parse("tel:78610575"));
+////        startActivity(i);
+//        if (ActivityCompat.checkSelfPermission( MainActivity.this, Manifest.permission.CALL_PHONE )!= PackageManager.PERMISSION_GRANTED){
+//            return;
+//        }
 //        startActivity(i);
-        if (ActivityCompat.checkSelfPermission( MainActivity.this, Manifest.permission.CALL_PHONE )!= PackageManager.PERMISSION_GRANTED){
-            return;
+
+        if(ActivityCompat.checkSelfPermission(MainActivity.this, Manifest.permission.CALL_PHONE) == PackageManager.PERMISSION_GRANTED){
+            // Aquí ya está concedido, procede a realizar lo que tienes que hacer
+            Intent i = new Intent(Intent.ACTION_CALL, Uri.parse("tel:78610575"));
+            startActivity(i);
+        }else{
+            // Aquí lanzamos un dialog para que el usuario confirme si permite o no el realizar llamadas
+            ActivityCompat.requestPermissions(MainActivity.this, new String[]{ Manifest.permission.CALL_PHONE}, MY_PERMISSIONS_REQUEST_CALL_PHONE);
         }
-        startActivity(i);
+
     }
 }

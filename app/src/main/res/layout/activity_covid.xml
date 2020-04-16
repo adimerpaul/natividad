@@ -13,6 +13,12 @@
         android:padding="14dp">
 
         <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="174dp"
+            android:layout_height="76dp"
+            app:srcCompat="@drawable/logo1" />
+
+        <ImageView
             android:layout_width="150dp"
             android:layout_height="80dp"
             android:src="@drawable/covid2"></ImageView>
@@ -21,11 +27,12 @@
             android:id="@+id/descripcion1Anno"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
             android:layout_gravity="center"
             android:layout_margin="8dp"
             android:layout_marginTop="4dp"
             android:text="@string/descripcion"
-            android:textSize="15sp" />
+            android:textSize="16sp" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
